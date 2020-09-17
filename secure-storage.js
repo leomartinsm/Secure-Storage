@@ -29,7 +29,7 @@ SecureStorage.definePrototype({
     getItem: function getItem(key) {
         var _ = this;
 
-        key = _.hash(key);
+        //key = _.hash(key);
 
         var value = _.storage.getItem(key);
 
@@ -45,7 +45,7 @@ SecureStorage.definePrototype({
     setItem: function setItem(key, value) {
         var _ = this;
 
-        key = _.hash(key);
+        //key = _.hash(key);
 
         value = JSON.stringify(value);
 
@@ -57,7 +57,7 @@ SecureStorage.definePrototype({
     removeItem: function removeItem(key) {
         var _ = this;
 
-        key = _.hash(key);
+        //key = _.hash(key);
 
         return _.storage.removeItem(key);
     },
