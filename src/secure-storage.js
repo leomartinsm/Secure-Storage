@@ -1,4 +1,4 @@
-var SecureStorage =
+var SecureStorageWithoutHashKey =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -47,8 +47,8 @@ var SecureStorage =
 
 	var Generator = __webpack_require__(1);
 
-	var SecureStorage = Generator.generate(
-	    function SecureStorage(storage, options) {
+	var SecureStorageWithoutHashKey = Generator.generate(
+	    function SecureStorageWithoutHashKey(storage, options) {
 	        var _ = this;
 
 	        _.storage = storage;
@@ -64,7 +64,7 @@ var SecureStorage =
 	    return data;
 	}
 
-	SecureStorage.definePrototype({
+	SecureStorageWithoutHashKey.definePrototype({
 	    hash: through,
 	    encrypt: through,
 	    decrypt: through,
@@ -72,7 +72,7 @@ var SecureStorage =
 	    writable: true
 	});
 
-	SecureStorage.definePrototype({
+	SecureStorageWithoutHashKey.definePrototype({
 	    getItem: function getItem(key) {
 	        var _ = this;
 
@@ -129,7 +129,7 @@ var SecureStorage =
 	    }
 	});
 
-	module.exports = SecureStorage;
+	module.exports = SecureStorageWithoutHashKey;
 
 
 /***/ },
