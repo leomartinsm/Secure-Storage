@@ -1,5 +1,5 @@
 {
-  "name": "secure-web-storage",
+  "name": "secure-web-storage-without-hash-key",
   "version": "1.0.2",
   "description": "A simple wrapper for localStorage/sessionStorage that allows one to encrypt/decrypt the data being stored.",
   "main": "secure-storage.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mike96Angelo/Secure-Storage.git"
+    "url": "git+https://github.com/leomartinsm/Secure-Storage.git"
   },
   "keywords": [
     "localStorage",
@@ -21,9 +21,9 @@
   "author": "Michaelangelo Jong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Mike96Angelo/Secure-Storage/issues"
+    "url": "https://github.com/leomartinsm/Secure-Storage/issues"
   },
-  "homepage": "https://github.com/Mike96Angelo/Secure-Storage#readme",
+  "homepage": "https://github.com/leomartinsm/Secure-Storage#readme",
   "dependencies": {
     "generate-js": "^3.1.2"
   }
