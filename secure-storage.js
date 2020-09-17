@@ -1,7 +1,7 @@
 var Generator = require('generate-js');
 
-var SecureStorage = Generator.generate(
-    function SecureStorage(storage, options) {
+var SecureStorageWithoutHashKey = Generator.generate(
+    function SecureStorageWithoutHashKey(storage, options) {
         var _ = this;
 
         _.storage = storage;
@@ -17,7 +17,7 @@ function through(data) {
     return data;
 }
 
-SecureStorage.definePrototype({
+SecureStorageWithoutHashKey.definePrototype({
     hash: through,
     encrypt: through,
     decrypt: through,
@@ -25,7 +25,7 @@ SecureStorage.definePrototype({
     writable: true
 });
 
-SecureStorage.definePrototype({
+SecureStorageWithoutHashKey.definePrototype({
     getItem: function getItem(key) {
         var _ = this;
 
@@ -82,4 +82,4 @@ SecureStorage.definePrototype({
     }
 });
 
-module.exports = SecureStorage;
+module.exports = SecureStorageWithoutHashKey;
