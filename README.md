@@ -1,10 +1,4 @@
 # SecureStorage
-
-[![GitHub release](https://img.shields.io/github/release/Mike96angelo/Secure-Storage.svg?maxAge=21600)](https://github.com/Mike96Angelo/Secure-Storage/releases)
-[![npm version](https://img.shields.io/npm/v/secure-web-storage.svg?maxAge=21600)](https://www.npmjs.com/package/secure-web-storage)
-[![npm downloads](https://img.shields.io/npm/dm/secure-web-storage.svg?maxAge=604800)](https://npm-stat.com/charts.html?package=secure-web-storage&from=2017-02-8)
-[![npm downloads](https://img.shields.io/npm/dt/secure-web-storage.svg?maxAge=604800)](https://npm-stat.com/charts.html?package=secure-web-storage&from=2017-02-8)
-
 A simple wrapper for localStorage/sessionStorage that allows one to encrypt/decrypt the data being stored.
 
 ### Install:
