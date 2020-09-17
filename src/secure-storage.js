@@ -76,7 +76,7 @@ var SecureStorage =
 	    getItem: function getItem(key) {
 	        var _ = this;
 
-	        key = _.hash(key);
+	        //key = _.hash(key);
 
 	        var value = _.storage.getItem(key);
 
@@ -92,7 +92,7 @@ var SecureStorage =
 	    setItem: function setItem(key, value) {
 	        var _ = this;
 
-	        key = _.hash(key);
+	        //key = _.hash(key);
 
 	        value = JSON.stringify(value);
 
@@ -104,7 +104,7 @@ var SecureStorage =
 	    removeItem: function removeItem(key) {
 	        var _ = this;
 
-	        key = _.hash(key);
+	        //key = _.hash(key);
 
 	        return _.storage.removeItem(key);
 	    },
