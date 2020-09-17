@@ -9,7 +9,7 @@ A simple wrapper for localStorage/sessionStorage that allows one to encrypt/decr
 
 ### Install:
 ```
-$ npm install secure-web-storage
+$ npm install secure-web-storage-without-hash-key
 ```
 # What SecureStorage Looks Like
 <!-- * [Docs](docs/javascript-api.md) -->
